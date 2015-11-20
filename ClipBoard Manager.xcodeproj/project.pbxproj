@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA4E3CD21B8283E900A05B44 /* slide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA4E3CD11B8283E900A05B44 /* slide.mp3 */; };
+		CA4E3CD41B82853600A05B44 /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA4E3CD31B82853600A05B44 /* tap.mp3 */; };
+		CA9BBC9D1B825A3D00520C96 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BBC9C1B825A3D00520C96 /* SecondView.swift */; };
+		CAB8EFFE1B83E09D006B2D63 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8EFFD1B83E09D006B2D63 /* ShareViewController.swift */; };
+		CAB8F0011B83E09D006B2D63 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB8EFFF1B83E09D006B2D63 /* MainInterface.storyboard */; };
+		CAB8F0051B83E09D006B2D63 /* ClipsyShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CAB8EFFB1B83E09D006B2D63 /* ClipsyShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAB8F00C1B83FF90006B2D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF94BFE1B7E45430029E3C2 /* Assets.xcassets */; };
+		CABB166F1B8CEE5A006CCE04 /* RedArt.png in Resources */ = {isa = PBXBuildFile; fileRef = CABB166E1B8CEE5A006CCE04 /* RedArt.png */; };
+		CABB16711B8CF2F7006CCE04 /* GreenArt.png in Resources */ = {isa = PBXBuildFile; fileRef = CABB16701B8CF2F7006CCE04 /* GreenArt.png */; };
+		CAC8C4E21B811AB300FAD37C /* pulltorefresh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAC8C4E11B811AB300FAD37C /* pulltorefresh.mp3 */; };
+		CADE0CED1B80B536001391DE /* add.aif in Resources */ = {isa = PBXBuildFile; fileRef = CADE0CEC1B80B536001391DE /* add.aif */; };
+		CADE0CF11B80CF23001391DE /* delete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CADE0CF01B80CF23001391DE /* delete.mp3 */; };
+		CADE0CF31B80E1F0001391DE /* copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CADE0CF21B80E1F0001391DE /* copy.mp3 */; };
 		CAF94BF81B7E45430029E3C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF94BF71B7E45430029E3C2 /* AppDelegate.swift */; };
 		CAF94BFA1B7E45430029E3C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF94BF91B7E45430029E3C2 /* ViewController.swift */; };
 		CAF94BFD1B7E45430029E3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF94BFB1B7E45430029E3C2 /* Main.storyboard */; };
@@ -14,8 +27,47 @@
 		CAF94C021B7E45430029E3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF94C001B7E45430029E3C2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CAB8F0031B83E09D006B2D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF94BEC1B7E45430029E3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB8EFFA1B83E09D006B2D63;
+			remoteInfo = ClipsyShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAB8F0091B83E09D006B2D63 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAB8F0051B83E09D006B2D63 /* ClipsyShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		CAF94BF41B7E45430029E3C2 /* ClipBoard Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClipBoard Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4E3CD11B8283E900A05B44 /* slide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slide.mp3; sourceTree = "<group>"; };
+		CA4E3CD31B82853600A05B44 /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
+		CA9BBC9C1B825A3D00520C96 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		CAB8EFFB1B83E09D006B2D63 /* ClipsyShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClipsyShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB8EFFD1B83E09D006B2D63 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		CAB8F0001B83E09D006B2D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CAB8F0021B83E09D006B2D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB8F00A1B83E0A5006B2D63 /* Clipsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Clipsy.entitlements; sourceTree = "<group>"; };
+		CAB8F00B1B83E0CD006B2D63 /* ClipsyShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ClipsyShare.entitlements; sourceTree = "<group>"; };
+		CABB166E1B8CEE5A006CCE04 /* RedArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedArt.png; sourceTree = "<group>"; };
+		CABB16701B8CF2F7006CCE04 /* GreenArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenArt.png; sourceTree = "<group>"; };
+		CAC8C4E11B811AB300FAD37C /* pulltorefresh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pulltorefresh.mp3; sourceTree = "<group>"; };
+		CADE0CEC1B80B536001391DE /* add.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = add.aif; sourceTree = "<group>"; };
+		CADE0CF01B80CF23001391DE /* delete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = delete.mp3; sourceTree = "<group>"; };
+		CADE0CF21B80E1F0001391DE /* copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copy.mp3; sourceTree = "<group>"; };
+		CAF94BF41B7E45430029E3C2 /* Clipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF94BF71B7E45430029E3C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF94BF91B7E45430029E3C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAF94BFC1B7E45430029E3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,6 +77,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CAB8EFF81B83E09D006B2D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAF94BF11B7E45430029E3C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAB8EFFC1B83E09D006B2D63 /* ClipsyShare */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8F00B1B83E0CD006B2D63 /* ClipsyShare.entitlements */,
+				CAB8EFFD1B83E09D006B2D63 /* ShareViewController.swift */,
+				CAB8EFFF1B83E09D006B2D63 /* MainInterface.storyboard */,
+				CAB8F0021B83E09D006B2D63 /* Info.plist */,
+			);
+			path = ClipsyShare;
+			sourceTree = "<group>";
+		};
 		CAF94BEB1B7E45430029E3C2 = {
 			isa = PBXGroup;
 			children = (
 				CAF94BF61B7E45430029E3C2 /* ClipBoard Manager */,
+				CAB8EFFC1B83E09D006B2D63 /* ClipsyShare */,
 				CAF94BF51B7E45430029E3C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,7 +117,8 @@
 		CAF94BF51B7E45430029E3C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAF94BF41B7E45430029E3C2 /* ClipBoard Manager.app */,
+				CAF94BF41B7E45430029E3C2 /* Clipsy.app */,
+				CAB8EFFB1B83E09D006B2D63 /* ClipsyShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,11 +126,21 @@
 		CAF94BF61B7E45430029E3C2 /* ClipBoard Manager */ = {
 			isa = PBXGroup;
 			children = (
+				CAB8F00A1B83E0A5006B2D63 /* Clipsy.entitlements */,
 				CAF94BF71B7E45430029E3C2 /* AppDelegate.swift */,
 				CAF94BF91B7E45430029E3C2 /* ViewController.swift */,
 				CAF94BFB1B7E45430029E3C2 /* Main.storyboard */,
+				CA9BBC9C1B825A3D00520C96 /* SecondView.swift */,
 				CAF94BFE1B7E45430029E3C2 /* Assets.xcassets */,
+				CADE0CF21B80E1F0001391DE /* copy.mp3 */,
+				CADE0CEC1B80B536001391DE /* add.aif */,
+				CAC8C4E11B811AB300FAD37C /* pulltorefresh.mp3 */,
+				CA4E3CD31B82853600A05B44 /* tap.mp3 */,
+				CA4E3CD11B8283E900A05B44 /* slide.mp3 */,
+				CADE0CF01B80CF23001391DE /* delete.mp3 */,
 				CAF94C001B7E45430029E3C2 /* LaunchScreen.storyboard */,
+				CABB166E1B8CEE5A006CCE04 /* RedArt.png */,
+				CABB16701B8CF2F7006CCE04 /* GreenArt.png */,
 				CAF94C031B7E45430029E3C2 /* Info.plist */,
 			);
 			path = "ClipBoard Manager";
@@ -67,6 +149,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CAB8EFFA1B83E09D006B2D63 /* ClipsyShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB8F0081B83E09D006B2D63 /* Build configuration list for PBXNativeTarget "ClipsyShare" */;
+			buildPhases = (
+				CAB8EFF71B83E09D006B2D63 /* Sources */,
+				CAB8EFF81B83E09D006B2D63 /* Frameworks */,
+				CAB8EFF91B83E09D006B2D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipsyShare;
+			productName = ClipsyShare;
+			productReference = CAB8EFFB1B83E09D006B2D63 /* ClipsyShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		CAF94BF31B7E45430029E3C2 /* ClipBoard Manager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAF94C061B7E45430029E3C2 /* Build configuration list for PBXNativeTarget "ClipBoard Manager" */;
@@ -74,14 +173,16 @@
 				CAF94BF01B7E45430029E3C2 /* Sources */,
 				CAF94BF11B7E45430029E3C2 /* Frameworks */,
 				CAF94BF21B7E45430029E3C2 /* Resources */,
+				CAB8F0091B83E09D006B2D63 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CAB8F0041B83E09D006B2D63 /* PBXTargetDependency */,
 			);
 			name = "ClipBoard Manager";
 			productName = "ClipBoard Manager";
-			productReference = CAF94BF41B7E45430029E3C2 /* ClipBoard Manager.app */;
+			productReference = CAF94BF41B7E45430029E3C2 /* Clipsy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,8 +194,26 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Mustafa;
 				TargetAttributes = {
+					CAB8EFFA1B83E09D006B2D63 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HNCVYKA54Q;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					CAF94BF31B7E45430029E3C2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HNCVYKA54Q;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -112,28 +231,55 @@
 			projectRoot = "";
 			targets = (
 				CAF94BF31B7E45430029E3C2 /* ClipBoard Manager */,
+				CAB8EFFA1B83E09D006B2D63 /* ClipsyShare */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CAB8EFF91B83E09D006B2D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB8F00C1B83FF90006B2D63 /* Assets.xcassets in Resources */,
+				CAB8F0011B83E09D006B2D63 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAF94BF21B7E45430029E3C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADE0CED1B80B536001391DE /* add.aif in Resources */,
+				CABB166F1B8CEE5A006CCE04 /* RedArt.png in Resources */,
+				CA4E3CD41B82853600A05B44 /* tap.mp3 in Resources */,
 				CAF94C021B7E45430029E3C2 /* LaunchScreen.storyboard in Resources */,
+				CABB16711B8CF2F7006CCE04 /* GreenArt.png in Resources */,
 				CAF94BFF1B7E45430029E3C2 /* Assets.xcassets in Resources */,
+				CADE0CF11B80CF23001391DE /* delete.mp3 in Resources */,
+				CAC8C4E21B811AB300FAD37C /* pulltorefresh.mp3 in Resources */,
 				CAF94BFD1B7E45430029E3C2 /* Main.storyboard in Resources */,
+				CA4E3CD21B8283E900A05B44 /* slide.mp3 in Resources */,
+				CADE0CF31B80E1F0001391DE /* copy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CAB8EFF71B83E09D006B2D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB8EFFE1B83E09D006B2D63 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAF94BF01B7E45430029E3C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9BBC9D1B825A3D00520C96 /* SecondView.swift in Sources */,
 				CAF94BFA1B7E45430029E3C2 /* ViewController.swift in Sources */,
 				CAF94BF81B7E45430029E3C2 /* AppDelegate.swift in Sources */,
 			);
@@ -141,7 +287,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CAB8F0041B83E09D006B2D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB8EFFA1B83E09D006B2D63 /* ClipsyShare */;
+			targetProxy = CAB8F0031B83E09D006B2D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		CAB8EFFF1B83E09D006B2D63 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB8F0001B83E09D006B2D63 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		CAF94BFB1B7E45430029E3C2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -161,6 +323,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CAB8F0061B83E09D006B2D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = ClipsyShare/ClipsyShare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClipsyShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mostafa.ClipBoard-Manager.ClipsyShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAB8F0071B83E09D006B2D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = ClipsyShare/ClipsyShare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClipsyShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mostafa.ClipBoard-Manager.ClipsyShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		CAF94C041B7E45430029E3C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -246,10 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ClipBoard Manager/Clipsy.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ClipBoard Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mostafa.ClipBoard-Manager";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clipsy;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -257,16 +457,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ClipBoard Manager/Clipsy.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ClipBoard Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mostafa.ClipBoard-Manager";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clipsy;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CAB8F0081B83E09D006B2D63 /* Build configuration list for PBXNativeTarget "ClipsyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB8F0061B83E09D006B2D63 /* Debug */,
+				CAB8F0071B83E09D006B2D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CAF94BEF1B7E45430029E3C2 /* Build configuration list for PBXProject "ClipBoard Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -283,6 +498,7 @@
 				CAF94C081B7E45430029E3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

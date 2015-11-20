@@ -4,14 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ClipBoard Manager.xcscheme</key>
+		<key>ClipBoard Manager.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ClipsyShare.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CAB8EFFA1B83E09D006B2D63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CAF94BF31B7E45430029E3C2</key>
 		<dict>
 			<key>primary</key>
